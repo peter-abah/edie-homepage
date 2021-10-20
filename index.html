@@ -18,22 +18,23 @@
   <title>Edie Homepage</title>
 </head>
 
+
 <body class="text-gray-1 font-sans">
   <nav class="flex justify-between items-center p-4">
     <p class="text-2xl font-bold font-display">Edie</p>
     <button type="button" class="js-menu-button relative transition-opacity duration-500">
       <span class="material-icons-outlined text-2xl">menu</span>
     </button>
-    <ul class="fixed top-0 left-0 right-0 h-0 overflow-hidden z-10 bg-white flex flex-col justify-center items-center text-2xl transition-all duration-500">
+    <ul class="js-menu fixed top-0 left-0 right-0 h-0 overflow-hidden z-10 bg-white flex flex-col justify-center items-center text-2xl transition-all duration-500">
       <button class="js-menu-button fixed top-4 right-4 opacity-0 transition-opacity duration-500" type="button">
         <span class="material-icons-outlined text-2xl">close</span>
       </button>
 
-      <li class="my-2 py-2"><a href="#home">Home</a></li>
-      <li class="my-2 py-2"><a href="#services">Services</a></li>
-      <li class="my-2 py-2"><a href="#our-works">Our Works</a></li>
-      <li class="my-2 py-2"><a href="#clients">Clients</a></li>
-      <li class="my-2 py-2"><a href="#contact">Contact</a></li>
+      <li class="my-2 py-2"><a class="js-nav-link" href="#home">Home</a></li>
+      <li class="my-2 py-2"><a class="js-nav-link" href="#services">Services</a></li>
+      <li class="my-2 py-2"><a class="js-nav-link" href="#our-works">Our Works</a></li>
+      <li class="my-2 py-2"><a class="js-nav-link" href="#clients">Clients</a></li>
+      <li class="my-2 py-2"><a class="js-nav-link" href="#contact">Contact</a></li>
     </ul>
   </nav>
 
@@ -179,6 +180,8 @@
     <p class="text-sm text-center">Created by <a class="font-medium underline" href="https://github.comn/peter-abah">Peter Abah</a> - 
       <a class="font-medium" href="https://devchallenges.io">devChallenges</a></p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
