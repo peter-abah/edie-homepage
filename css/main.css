@@ -1377,12 +1377,32 @@ video {
     padding-bottom: 2.75rem;
   }
 
+  .lg\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .lg\:pt-28 {
+    padding-top: 7rem;
+  }
+
   .lg\:pr-32 {
     padding-right: 8rem;
   }
 
   .lg\:pb-2 {
     padding-bottom: 0.5rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:pb-28 {
+    padding-bottom: 7rem;
+  }
+
+  .lg\:pb-52 {
+    padding-bottom: 13rem;
   }
 
   .lg\:pl-40 {
