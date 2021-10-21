@@ -45,6 +45,26 @@ module.exports = {
       fontSize: {
         xxs: '.625rem'
       },
+
+      width: {
+        '9/10': '90%',
+        '85': '21.25rem',
+        '15ch': '15ch',
+        '20ch': '20ch',
+        'fit': 'fit-content',
+      },
+
+      maxWidth: {
+        '85': '21.25rem',
+        '15ch': '15ch',
+        '20ch': '20ch',
+        '90': '22.5rem',
+      },
+
+      margin: {
+        '1/5': '20%',
+        '1/6': 'calc(100%/6)',
+      },
     },
   },
   variants: {
