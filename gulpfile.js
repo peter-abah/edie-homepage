@@ -5,7 +5,7 @@ const css = (callback) => {
   const processors = [
     require('tailwindcss'),
     require('autoprefixer'),
-    //require('cssnano')
+    require('cssnano'),
   ];
 
   src('./src/css/**/*.css')
